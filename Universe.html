@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="menu-hitbox" onclick="toggleMenu()">
+        <div class="menu-toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+  </div>
+<nav class="menu">
+    <ul>
+        <li><a href="#home" onclick="showPage('home')"><h4>Home</h4></a></li>
+        <li>
+            <a href="#celestial bodies" onclick="toggleSubmenu()"><h4>Celestial bodies</h4></a>
+            <ul id="submenu" class="submenu" style="display: none;">
+                <li><a href="#BlackHole" onclick="showPage('BlackHole')"><h5>Black holes</h5></a></li>
+                <li><a href="#Exoplanets" onclick="showPage('Exoplanets')"><h5>Exoplanets</h5></a></li>
+                <li><a href="#Galaxies"onclick="showPage('Galaxies')"><h5>Galaxies</h5></a></li>
+                <li><a href="#Neutron Stars"onclick="showPage('Neutron Stars')"><h5>Neutron stars</h5></a></li>
+                <li><a href="#CMD"onclick="showPage('CMD')"><h5>CMD</h5></a></li>
+                <li><a href="#darkMatter"onclick="showPage('darkMatter')"><h5>Dark matter</h5></a></li>
+            </ul>
+        </li>
+        <li><a href="#galleryFULL" onclick="showPage('galleryFULL')"><h4>Gallery</h4></a></li>
+    </ul>
+</nav>
+
+<div class="ad">
+    <h3>Advertisment</h3>
+    </div>
+<div class="content" id="home">
+    <div>
+        <h2>Beyond the Stars: Unraveling the Mysteries of the Universe</h2>
+        </br>
+        <h3>Are you eager to delve into the mysteries of the universe, uncovering fascinating facts you've never encountered before? Do you yearn to witness extraordinary images capturing the infinite darkness—or so it's often described—of the cosmos above us? Look no further. Welcome to a journey where curiosity knows no bounds, where the secrets of the cosmos await your discovery.   </h3>
+<div class="video-and-team-container">
+    <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EL2XOIVzvlU?si=sKGCM_gN6ciBSOuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="team" id="Team">
+        <h2>What you can expect:</h2>
+        <ul>
+            <li><h3>- New interesting facts</h3></li>
+            <li><h3>- 4k pictures</h3></li>
+            <li><h3>- Perfect descriptions of astronomical objects</h3></li>
+            <li><h3>- Video with awesome soundtracks</h3></li>
+            <li><h3>- Summarized texts</h3></li>
+            <li><h3>- Trustworthy links</h3></li>
+            <li><h3>- Social media links</h3></li>
+        </ul>
+    </div>
+</div>
+        <hr  class="custom-line">
+        <h2>Join our journey!</h2>
+            <h3>Join us as we explore the wonders of the universe, offering fresh insights and captivating visuals that will leave you in awe of the vastness and beauty that lies beyond our earthly realm.</h3>
+        <h2>Social media (definitely legit):</h2>
+        <h2><a href="https://www.youtube.com/@NASA" target="_blank">YouTube 📹</a></br></h2>
+        <h2><a href="https://www.tiktok.com/tag/nasa?lang=en"target="_blank">TikTok 🤳</a><br></h2>
+        <h2><a href="https://www.instagram.com/nasa/?hl=en"target="_blank">Insta 📸</a><br></h2>
+        <h2><a href="https://www.nasa.gov/" target="_blank">Offical Website ⭐</a></h2>
+        </br>
+        <h3>Email address for buisness/ideas/requests/donations ✉️:</h3>
+        <h3>instantuniverse595@gmail.com</h3>
+        <h3>BTW: These are just some random nasa links</h3>
+         <hr  class="custom-line">
+    </div>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+
+        </br>
+        <img src="https://yt3.ggpht.com/y34n2BBoquc29BBxsyDAp1Edc8sDMjmkwv4_OfWTqfa-pr6FchysgiaUBOXlaydCC99hZ0i_U_zg=s800-c-fcrop64=1,06550000f9aaffff-nd-v1" alt="Black hole">
+        <img src="https://images.unsplash.com/photo-1608178398319-48f814d0750c?q=80&w=2406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pink galaxy">
+        <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Galaxy">
+        <img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=2602&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Moon">
+        <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Astronaut">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="REarth">
+
+    </div>
+     <h3>Every photo is from <a href="https://unsplash.com/de" target="_blank"> Unsplash </a>. </h3>
+
+
+
+</div>
+
+
+<div class="content" id="BlackHole" style="display:none;">
+    <h2>Black holes</h2>
+    <br>
+    <div class="BlackHoles">
+    <h3>All you need to know:</h3>
+ <p><h3>1.</h3><h5>Black holes can be formed from the remnants of massive stars</h5></p>
+<p><h3>2.</h3><h5>Black holes have an event horizon, beyond which nothing can escape</h5></p>
+        <p><h3>3.</h3><h5>Black holes can have varying sizes, from stellar mass to supermassive</h5></p>
+<p><h3>4.</h3><h5>Time dilation occurs near black holes due to their intense gravitational pull</h5></p>
+<p><h3>5.</h3><h5>Black holes can emit radiation known as Hawking radiation</h5></p>
+<p><h3>6.</h3><h5>Black holes play a crucial role in shaping the structure of galaxies</h5></p>
+  <div class="trailer" id="blackTrailer">
+    <h3>Videos</h3>
+       <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/e-P5IFTqB98?si=06CkwRtQnz1W0GOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/V4Z8EdiJxgk?si=t0S4D98IC3SVVQfn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kOEDG3j1bjs?si=EAYSktGZddVFdoBb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  </div>
+        <div class="gallery" id="blackGallery">
+        <h3>Images Section</h3>
+        <img src="https://cdn.mos.cms.futurecdn.net/HsDtpFEHbDpae6wBuW5wQo.jpg"  alt="blackHole1">
+            <img src="https://science.nasa.gov/wp-content/uploads/2023/06/PIA16695_large-jpg.webp" width="50" alt="blackHole2">
+        </div>
+
+</div>
+</div>
+
+
+
+<div class="content" id="Exoplanets" style="display:none;">
+    <h2>Exoplanets</h2>
+    <br>
+    <div class="Exoplanets">
+    <h3>All you need to know:</h3>
+<p><h3>1.</h3><h5>Exoplanets are planets that orbit stars outside of our solar system.</h5></p>
+<p><h3>2.</h3><h5>Thousands of exoplanets have been discovered so far, with many more awaiting confirmation.</h5></p>
+<p><h3>3.</h3><h5>Exoplanets come in a wide variety of sizes, compositions, and orbits.</h5></p>
+<p><h3>4.</h3> <h5>Some exoplanets are located within their star's habitable zone, where conditions might be suitable for life as we know it.</h5></p>
+<p><h3>5.</h3><h5>Exoplanets are detected using various methods, including the transit method, radial velocity method, direct imaging, and gravitational microlensing.</h5></p>
+  <div class="trailer" id="ExoTrailer">
+    <h3>Videos</h3>
+       <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EUU0-ZpFoK4?si=qxFiIJtcgCvqtfrq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DJWtZFooKaE?si=zyZz_AYtfMoWXSyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+  </div>
+        <div class="gallery" id="ExoGallery">
+        <h3>Images Section</h3>
+        <img src="https://content.presspage.com/uploads/1906/225839d6-1baa-4394-898e-a0c47fecf53a/exoplanets-illustration-nasa-800w.jpg?10000"  alt="Exo1">
+            <img src="https://newscdn2.weigelbroadcasting.com/EdKUf-1586977842-162158-blog-hypatia-h_cd1e862e0798f5323e79892487c36f85-h_24a3e195327a52f32c8759297286b2d0.jpg" width="50" alt="Exo2">
+        </div>
+
+</div>
+</div>
+
+
+<div class="content" id="Galaxies" style="display:none;">
+    <h2>Galaxies</h2>
+    <br>
+    <div class="Galaxies">
+    <h3>All you need to know:</h3>
+
+<p><h3>1. Galaxies come in various shapes and sizes, including spiral, elliptical, and irregular.</h3><h5>Galaxies are not all the same; they exhibit a diverse range of structures and configurations.</h5></p>
+<p><h3>2. The Milky Way, our galaxy, contains billions of stars, planets, and other celestial objects.</h3><h5>Our galaxy, the Milky Way, is home to a vast number of stars and planetary systems, including our own solar system.</h5></p>
+<p><h3>3. Galaxies can interact and merge with each other, leading to the formation of new galaxies.</h3><h5>Galaxies are not static; they can collide and merge over cosmic timescales, influencing their evolution and structure.</h5></p>
+<p><h3>4. Supermassive black holes often reside at the centers of galaxies, influencing their evolution.</h3><h5>Many galaxies harbor supermassive black holes at their centers, which can affect the surrounding stars and gas through their immense gravitational pull.</h5></p>
+<p><h3>5. Galaxies are grouped into clusters and superclusters, forming large-scale structures in the universe.</h3><h5>Galaxies are not distributed randomly; they are organized into clusters and superclusters, creating vast cosmic structures interconnected by gravity.</h5></p>
+  <div class="trailer" id="GalTrailer">
+    <h3>Videos</h3>
+       <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wsCedw3iBU0?si=ag5UBVCk_MYfnL0J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EuJNVgcYEWU?si=PyL8wYA3CqG4BRvN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+  </div>
+        <div class="gallery" id="GalGallery">
+        <h3>Images Section</h3>
+        <img src="https://science.nasa.gov/wp-content/uploads/2023/06/spiral-galaxy-jpg.webp"  alt="Gal1">
+            <img src="https://c02.purpledshub.com/uploads/sites/41/2023/07/galaxies-3279c39.jpg" width="50" alt="Gal2">
+        </div>
+
+</div>
+</div>
+
+<div class="content" id="Neutron Stars" style="display:none;">
+    <h2>Neutron Stars</h2>
+    <br>
+    <div class="NeutronStars">
+    <h3>All you need to know:</h3>
+
+<p> <h3>1. Neutron stars are incredibly dense remnants of massive stars that have undergone supernova explosions.</h3><h5>They pack the mass of about 1.4 times that of the Sun into a sphere roughly the size of a city, resulting in densities unimaginable on Earth.</h5></p>
+<p> <h3>2. Neutron stars possess incredibly strong magnetic fields, often billions of times stronger than Earth's.</h3><h5>These magnetic fields can produce intense radiation beams that sweep across the sky like lighthouse beams as the neutron star rotates, leading to phenomena known as pulsars.</h5></p>
+<p> <h3>3. Neutron stars are composed primarily of neutrons, with a thin outer crust of heavier elements.</h3><h5>The pressure inside a neutron star is so immense that atoms are crushed, and protons and electrons combine to form neutrons.</h5></p>
+<p> <h3>4. Neutron stars can also exist in binary systems, where they accrete matter from a companion star.</h3><h5>This matter falling onto the neutron star can result in X-ray emissions and occasionally trigger bursts of intense energy.</h5></p>
+<p> <h3>5. Neutron stars are thought to be key in the process of producing heavy elements in the universe.</h3><h5>During supernova explosions, the extreme conditions inside neutron stars may facilitate the rapid neutron capture process (r-process), leading to the creation of elements heavier than iron.</h5></p>
+  <div class="trailer" id="NSTrailer">
+    <h3>Videos</h3>
+       <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/udFxKZRyQt4?si=2uK-mm3A320vRbC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fFeV8WxIZLk?si=azFoB6LxkNwDkgyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+  </div>
+        <div class="gallery" id="NSGallery">
+        <h3>Images Section</h3>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-185759749-1527706098.jpg?crop=0.492xw:1.00xh;0.103xw,0&resize=1200:*"  alt="NS1">
+        </div>
+
+</div>
+</div>
+
+
+<div class="content" id="CMD" style="display:none;">
+    <h2>Color-Magnitude Diagrams</h2>
+    <br>
+    <div class="CMD">
+    <h3>All you need to know:</h3>
+        <p> <h3>1. CMDs are essential tools in studying stellar populations</h3><h5>They help astronomers understand the age, composition, and evolutionary stage of stars within a cluster or galaxy.</h5></p>
+<p> <h3>2. CMDs plot stellar brightness against color index</h3><h5>Stars' apparent magnitudes are plotted on the vertical axis, while their colors, often represented by the difference in brightness between two different wavelengths, are plotted on the horizontal axis.</h5></p>
+<p> <h3>3. CMDs can reveal features such as main sequences, giant branches, and variable stars</h3><h5>These features provide valuable information about the distribution of stars in different evolutionary stages and the properties of the stellar population.</h5></p>
+<p> <h3>4. CMDs allow astronomers to estimate distances to star clusters and galaxies</h3><h5>By comparing the observed CMDs with theoretical models, astronomers can determine the distance to the objects based on their apparent brightness and color.</h5></p>
+<p> <h3>5. CMDs are constructed using photometric data obtained from observations</h3><h5>Photometric measurements of stars in different wavelength bands are used to determine their apparent magnitudes and colors, which are then plotted on the CMD.</h5></p>
+  <div class="trailer" id="CMDTrailer">
+    <h3>Videos</h3>
+       <br>
+
+  </div>
+        <div class="gallery" id="CMDGallery">
+        <h3>Images Section</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/M3_color_magnitude_diagram.jpg"  alt="CMD1">
+            <img src="https://coolwiki.ipac.caltech.edu/images/a/a3/Hipall.gif" width="50" alt="CMD2">
+        </div>
+
+</div>
+</div>
+
+<div class="content" id="darkMatter" style="display:none;">
+    <h2>Dark matter</h2>
+    <br>
+    <div class="DM">
+    <h3>All you need to know:</h3>
+<p> <h3>1.</h3><h5>Dark matter makes up about 27% of the universe's total mass-energy content</h5></p>
+<p> <h3>2.</h3><h5>Dark matter does not emit, absorb, or reflect electromagnetic radiation, making it invisible and detectable only through its gravitational effects</h5></p>
+<p> <h3>3.</h3><h5>The existence of dark matter was first inferred from observations of the rotational velocities of galaxies, which couldn't be explained by the visible matter alone</h5></p>
+<p> <h3>4.</h3><h5>Dark matter is thought to be composed of as-yet-undiscovered particles that interact weakly with ordinary matter and themselves</h5></p>
+<p> <h3>5.</h3><h5>Dark matter plays a crucial role in the formation and evolution of large-scale structures in the universe, such as galaxies and galaxy clusters</h5></p>
+  <div class="trailer" id="DMTrailer">
+    <h3>Videos</h3>
+       <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QAa2O_8wBUQ?si=tIrnMyG1V9ILH9U1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HneiEA1B8ks?si=rOsmQKEc5t_dk-vG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  </div>
+        <div class="gallery" id="DMGallery">
+        <h3>Images Section</h3>
+        <img src="https://revolutionized.com/wp-content/uploads/sites/5/2022/08/REV-dark-matter.jpg"  alt="DM1">
+        </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="content" id="galleryFULL" style="display:none;" >
+    <h2>Gallery</h2>
+    </br>
+
+    <div class="gallery">
+        <img src="https://yt3.ggpht.com/y34n2BBoquc29BBxsyDAp1Edc8sDMjmkwv4_OfWTqfa-pr6FchysgiaUBOXlaydCC99hZ0i_U_zg=s800-c-fcrop64=1,06550000f9aaffff-nd-v1" alt="Black hole">
+        <img src="https://images.unsplash.com/photo-1608178398319-48f814d0750c?q=80&w=2406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pink galaxy">
+        <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Galaxy">
+        <img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=2602&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Moon">
+        <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Astronaut">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="REarth">
+        <img src="https://images.unsplash.com/photo-1627556592933-ffe99c1cd9eb?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Saturn">
+        <img src="https://images.unsplash.com/photo-1546497974-b213c9efb599?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="starssss">
+    <h3>Every photo is from <a href="https://unsplash.com/de" target="_blank"> Unsplash </a>. </h3>
+    </div>
+
+</div>
+</body>
+</html>
